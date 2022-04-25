@@ -6,8 +6,46 @@
     scroll-behavior: smooth;
     font-family: 'Source Serif 4', serif;
 }
+/*Base styles*/
+p{
+    color: white;
+    font-size: 1.1rem;
+}
+.stripper{
+    border: 1px solid blue;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+    min-height: 100%;
+}
 
+/*Utility classes*/
+.text-center{
+    text-align: center;
+} 
+.txt-xl{
+    font-size: 3.0rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.txt-lg{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.txt-md{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.txt-sm{
+    font-size: 1.0rem;
+    text-align: center;
+}
 
+/*About components*/
 .main-conatiner{
 border: 1px solid red;
 width: 100vw;
@@ -25,11 +63,11 @@ height: auto;
 }
 
 .container .hero{
-    border: 1px solid white;
-    text-align: center;
+    /* border: 1px solid white; */
     position: absolute;
-    left: 40%;
-    top: 45%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
  
 
 }
@@ -37,11 +75,12 @@ height: auto;
      font-size: 5rem;
     font-family: 'Source Serif 4';
     font-weight: 400;
-    text-align: center;
     color: white;
   
 } 
-
+/*This is the strip container*/
 .stripper{
     border: 1px solid blue;
+    width: 90%;
+    margin: auto;
 }
