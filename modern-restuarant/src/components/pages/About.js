@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css';
-import Chefimg from './images/chef.jpg'; 
+import Chefimg from './images/chef2.jpg'; 
 
 function About() {
   return (
@@ -17,7 +17,7 @@ function About() {
                 <div className='grid-img'>
                   <img src={Chefimg} alt='hello' />
                 </div>
-                  <div className='grid-content'>
+                <div className='grid-content'>
                     <h3>How Ginza Came to be</h3>
                     <p>Ginza had an unconventional start as a restaurant.
                     Originally opening as a pop-up event, our original 
@@ -26,8 +26,33 @@ function About() {
                   </div>
                 </div>
                 
+            </div>
           </div>
+          
+
+          <div className='grid-container'>
+              <div className='grid-row'>
+                <div className='grid-col2 grid-reversed'>
+                <div className='grid-img'>
+                  <img src={Chefimg} alt='hello' />
+                </div>
+                <div className='grid-content'>
+                    <p>When it became clear that there was going to be
+                       continued interest in the eating experience we’d curated,
+                        we found a permanent location, expanded our menu, and began 
+                        regular service. That was 5 years ago, and we’re still going strong today.
+                        </p>
+                    <p>Though we’ve come a long way from where we started
+                       (we’re up to 12 chefs and 10 servers on a normal evening), our focus has ever shifted. 
+                       When you eat with us, you can expect to find new flavors, existing foods, and a sparkling evening. </p>
+                  </div>
+                </div>
+                
+            </div>
           </div>
+
+      
+         
          
          
         </div>
