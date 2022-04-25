@@ -44,7 +44,10 @@ img{
     font-size: 1.0rem;
     text-align: center;
 }
-
+.grid-reversed :first-child {
+    order: 2;
+  }
+/* 
 /*Padding X-axis*/
 .px-lg{
     padding: 0 40px;
@@ -93,7 +96,7 @@ height: auto;
 
 }
 .container .hero h1{
-     font-size: 5rem;
+     font-size: 7rem;
     font-family: 'Source Serif 4';
     font-weight: 400;
     color: white;
@@ -108,7 +111,8 @@ height: auto;
 .grid-container{
     /* border: 1px solid green; */
     width: 100%;
-    margin-top:130px; 
+    margin-top:150px; 
+    position: relative;
 }
 .grid-container .grid-row{
     /* border: 1px solid brown; */
@@ -119,44 +123,119 @@ height: auto;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     gap: 7rem;
+   
 
 }
 .grid-container .grid-row .grid-col2 .grid-img{
     /* border: 1px solid green; */
     overflow-y: hidden;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    
 }
 .grid-container .grid-row .grid-col2 .grid-img img{
-   width: 100%;
+    width: 100%;
     height: 38rem;
+    object-fit: fill;
     
 }
 .grid-container .grid-row .grid-col2 .grid-content{
     border: 1px solid black;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
- 
+    justify-content: center; */
+    margin: 20px auto;
+  
     width: 100%;
+    max-height: 500px;
 }
 .grid-container .grid-row .grid-col2 .grid-content h3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 450px;
+    width: 100%;
     font-size: 3.5rem;
     font-weight: 400;
     /* line-height: 1.5; */
-    margin-bottom: 100px;
-    padding: 0 10px;
+    padding: 50px 20px;
+    color:#1F2120;
 }
 .grid-container .grid-row .grid-col2 .grid-content p{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: 450px;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    padding: 0 20px;
+    font-weight: 400;
+    color:#404344;
 }
-.grid-reversed :first-child {
-    order: 2;
-  }
-/* 
+
+/*Second grid */
+.stripper .grid-container2{
+    width: 100%;
+    margin-bottom:90px; 
+    position: relative;
+}
+.stripper .grid-container2 .grid-row2{
+    /* border: 1px solid brown; */
+    width: 100%;
+}
+.stripper .grid-container2 .grid-row2 .grid-col22{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 5rem;
+}
+
+
+
+ .stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2{
+    max-width: 90%;
+    height: 35rem;
+    overflow-y: hidden;
+
+  
+}
+
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2 img{
+    border: 1px solid red;
+    width: 100%;
+    margin-left: 40px;
+    object-fit: fill;
+   
+   
+} 
+
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2{
+    border: 1px solid green;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 0;
+}
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content1{
+    border: 1px solid red;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 100%;
+}
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content1 p{
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color:#404344;
+    
+ 
+}
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2{
+    border: 1px solid red;
+    margin-top: 50px;
+    max-width: 100%;
+}
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2 p{
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color:#404344;
+}
 @media (max-width:960px) {
     .grid-container .grid-row .grid-col2{
         display: grid;
@@ -166,4 +245,4 @@ height: auto;
     .grid-container .grid-row .grid-col2 .grid-content{
         grid-row:1/2;
     }
-} */
+} 
