@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css';
+import Chefimg from './images/chef.jpg'; 
 
 function About() {
   return (
@@ -10,14 +11,25 @@ function About() {
           </div>
         </div>
         <div className='stripper'>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
-          <h3>HELLO ELVIS</h3>
+          <div className='grid-container'>
+              <div className='grid-row'>
+                <div className='grid-col2'>
+                <div className='grid-img'>
+                  <img src={Chefimg} alt='hello' />
+                </div>
+                  <div className='grid-content'>
+                    <h3>How Ginza Came to be</h3>
+                    <p>Ginza had an unconventional start as a restaurant.
+                    Originally opening as a pop-up event, our original 
+                    aim was to showcase the unique culinary stylings of
+                    our head chef, Kabu Natsu. </p>
+                  </div>
+                </div>
+                
+          </div>
+          </div>
+         
+         
         </div>
     </div>
     
