@@ -34,7 +34,6 @@ function About() {
               <div className='grid-row2'>
                 <div className='grid-col22 grid-reversed'>
                 <div className='grid-img2'>
-                  {/* <img src={Resimg} alt='hello' /> */}
                 </div>
                 <div className='grid-content2'>
                   <div className='content1'>
