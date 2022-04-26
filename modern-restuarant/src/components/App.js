@@ -17,7 +17,6 @@ const App = () => {
         <Route path="products" element={<Product />} />
         <Route path="allergies" element={<Allergies />} />
       </Routes>
-
     </div>
   )
 }
