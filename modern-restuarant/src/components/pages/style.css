@@ -321,6 +321,7 @@ position: relative;
 
 
 @media (max-width:980px) {
+
     .stripper{
         max-width: 95%;
         margin: auto auto;
@@ -365,13 +366,13 @@ position: relative;
 
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2{
         padding: 0px;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         margin-top:10px;
         overflow-y: hidden;
     }
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content1{
         margin-top: 100px;
-        border: 1px solid green;
+        /* border: 1px solid green; */
         width: 100%;
     }
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content1 p{
@@ -420,7 +421,7 @@ position: relative;
     
     .main-conatiner .book-container .book-wrapper .book-content p{
         padding:0 10px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .main-conatiner .book-container{
         height: 70vh;
@@ -443,6 +444,9 @@ position: relative;
 } 
 
 @media (max-width:460px){
+    .container{
+        height: 70vh;
+    }
     .stripper{
         max-width: 90%;
         margin: 0 auto;
