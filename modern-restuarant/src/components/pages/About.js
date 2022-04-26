@@ -1,14 +1,14 @@
 import React from 'react'
 import './style.css';
 import Chefimg from './images/chef2.jpg'; 
-import Resimg from './images/restuarant.jpg'; 
+
 
 function About() {
   return (
     <div className='main-conatiner'>
         <div className='container'>
           <div className='hero'>
-              <h1 className='text-center'>About</h1>
+              <h1 className='text-center txt-md'>About</h1>
           </div>
         </div>
         <div className='stripper'>
@@ -34,19 +34,19 @@ function About() {
               <div className='grid-row2'>
                 <div className='grid-col22 grid-reversed'>
                 <div className='grid-img2'>
-                  <img src={Resimg} alt='hello' />
+                  {/* <img src={Resimg} alt='hello' /> */}
                 </div>
                 <div className='grid-content2'>
                   <div className='content1'>
                   <p>When it became clear that there was going to be
                        continued interest in the eating experience we’d curated,
                         we found a permanent location, expanded our menu, and began 
-                        regular service. That was 5 years <br/>ago, and we’re still going strong today.
+                        regular service. That was 5 years ago, and we’re still going strong today.
                         </p>
                   </div>
                       <div className='content2'>
                       <p>Though we’ve come a long way from where we started
-                       (we’re up to <br/>12 chefs and 10 servers on a normal evening), our focus has ever<br/> shifted. 
+                       (we’re up to 12 chefs and 10 servers on a normal evening), our focus has ever shifted. 
                        When you eat with us, you can expect to find new flavors, existing foods, and a sparkling evening. </p>
                       </div>
                    
@@ -55,16 +55,10 @@ function About() {
                 
             </div>
           </div>
-
-         
-
-      
-         
-         
-         
         </div>
 
         <div className='book-container'>
+          <div className='book-wrapper'>
           <div className='book-title'>
           <h1>Book a table</h1>
           </div>
@@ -73,9 +67,11 @@ function About() {
               Groups of 8 or more must reserve ahead of time.</p>
           </div>
             <div className='book-btn'>
-              <button>Book Now</button>
+              <button>Book now</button>
             </div>
         </div>
+  </div>
+         
 </div>
     
     

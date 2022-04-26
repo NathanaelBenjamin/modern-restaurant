@@ -30,7 +30,7 @@ img{
     font-size: 3.0rem;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-bottom: 20px;
+
 }
 .txt-lg{
     font-size: 1.7rem;
@@ -69,15 +69,35 @@ img{
 .py-sm{
     padding: 20px 0;
 }
+
+/*Buttons*/
+button{
+    border: 1px solid black;
+    padding: 13px 27px;
+    font-size: 1rem;
+    color:#404344;
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    text-decoration: none;
+    text-align: center;
+    
+}
+button:hover{
+    background-color: #1F2120;
+    color: white;
+    transition: all 0.5s;
+}
 /*About components styles*/
 .main-conatiner{
 border: 1px solid red;
 width: 100vw;
 height: auto;
+position: relative;
 }
 .container{ 
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)), url(./images/Hero.jpg);
     background-position: center;
     background-size: cover; 
@@ -97,14 +117,14 @@ height: auto;
 }
 .container .hero h1{
      font-size: 7rem;
-    font-family: 'Source Serif 4';
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     color: white;
   
 } 
 /*This is the strip container*/
 .stripper{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 90%;
     margin: auto;
 }
@@ -112,7 +132,6 @@ height: auto;
     /* border: 1px solid green; */
     width: 100%;
     margin-top:150px; 
-    position: relative;
 }
 .grid-container .grid-row{
     /* border: 1px solid brown; */
@@ -122,7 +141,7 @@ height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    gap: 7rem;
+    gap: 5rem;
    
 
 }
@@ -140,12 +159,8 @@ height: auto;
     
 }
 .grid-container .grid-row .grid-col2 .grid-content{
-    border: 1px solid black;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    margin: 20px auto;
-  
+    /* border: 1px solid black; */
+    margin: 25px auto;
     width: 100%;
     max-height: 500px;
 }
@@ -155,16 +170,16 @@ height: auto;
     width: 100%;
     font-size: 3.5rem;
     font-weight: 400;
-    /* line-height: 1.5; */
-    padding: 50px 20px;
+    padding: 70px 45px;
     color:#1F2120;
 }
 .grid-container .grid-row .grid-col2 .grid-content p{
     /* border: 1px solid red; */
-    max-width: 450px;
-    font-size: 1.05rem;
+    max-width: 490px;
+    width: 100%;
+    font-size: 1.0rem;
     line-height: 1.4;
-    padding: 0 20px;
+    padding: 0 45px;
     font-weight: 400;
     color:#404344;
 }
@@ -172,8 +187,10 @@ height: auto;
 /*Second grid */
 .stripper .grid-container2{
     width: 100%;
-    margin-bottom:90px; 
+    margin-bottom:150px; 
+    margin-top: -70px ;
     position: relative;
+    /* border: 1px solid black; */
 }
 .stripper .grid-container2 .grid-row2{
     /* border: 1px solid brown; */
@@ -184,41 +201,33 @@ height: auto;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     gap: 5rem;
-}
-
-
-
- .stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2{
-    max-width: 90%;
-    height: 35rem;
-    overflow-y: hidden;
-
   
 }
 
-.stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2 img{
-    border: 1px solid red;
-    width: 100%;
-    margin-left: 40px;
-    object-fit: fill;
-   
-   
-} 
+.stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2{
+    background-image: url(./images/restuarant.jpg);
+    background-position:left center;
+    background-size: cover;
+    max-width: 85%;
+    height: 600px;
+    margin-left: 55px;
+    margin-right: -55px;
+}
 
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     max-width: 100%;
     width: 100%;
-    padding: 20px 0;
+    padding: 100px 0;
 }
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 150px;
-    width: 100%;
+    width: 530px;
     max-width: 100%;
 }
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content1 p{
-    font-size: 1.05rem;
+    font-size: 1.0rem;
     font-weight: 400;
     line-height: 1.4;
     color:#404344;
@@ -226,17 +235,99 @@ height: auto;
  
 }
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
     max-width: 100%;
+    width: 500px;
 }
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2 p{
-    font-size: 1.05rem;
+    font-size: 1.0rem;
     font-weight: 400;
     line-height: 1.4;
     color:#404344;
 }
+
+
+/*Book Section*/
+
+.main-conatiner .book-container{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 85vh;
+    background: #eeeeee;
+    position: relative;
+    
+}
+.main-conatiner .book-container .book-wrapper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    text-align: center;
+}
+
+.main-conatiner .book-container .book-wrapper .book-title h1{
+    /* border: 1px solid green; */
+    padding: 20px 0;
+   font-size: 4rem;
+   font-weight: 400;
+   margin-bottom: 40px;
+   color: #404344;
+}
+
+.main-conatiner .book-container .book-wrapper .book-content{
+    /* border:1px solid red; */
+    width: 400px;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.main-conatiner .book-container .book-wrapper .book-content p{
+    font-size: 1.0rem;
+    color: #404344;
+   
+}
+
+@media (max-width: 1200px){
+    .container{
+        height: 90vh;
+    }
+
+    .grid-container .grid-row .grid-col2 .grid-content h3{
+        /* border: 1px solid red; */
+        width: 85%;
+        padding: 10px 45px;
+    }
+    .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2{
+        margin-top: 70px;
+    }
+    .stripper .grid-container2{
+        margin-bottom: 90px;
+    }
+    .main-conatiner .book-container .book-wrapper{
+        width: 330px;
+        border: 1px solid black;
+    }
+    .main-conatiner .book-container .book-wrapper .book-title h1{
+        margin-bottom: 5px;  
+    }
+    .main-conatiner .book-container .book-wrapper .book-content{
+        margin-bottom: 50px;
+    }
+    .grid-container .grid-row .grid-col2 .grid-content{
+        border: 1px solid red;
+    }
+}
+
+
 @media (max-width:960px) {
+    .container{
+        height: 50vh;
+    }
+    .txt-md{
+        font-size: 1.3rem;
+        text-align: center;
+    }
     .grid-container .grid-row .grid-col2{
         display: grid;
         grid-template-columns: 1fr;
@@ -245,4 +336,12 @@ height: auto;
     .grid-container .grid-row .grid-col2 .grid-content{
         grid-row:1/2;
     }
+    .stripper .grid-container2 .grid-row2 .grid-col22{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    /* .grid-container .grid-row .grid-col2 .grid-content{
+        grid-row:1/2;
+    } */
 } 
