@@ -19,8 +19,8 @@ function About() {
                     <img src={Chefimg} alt='hello' />
                   </div>
                   <div className='grid-content'>
-                      <h3>How Ginza Came to be</h3>
-                      <p>Ginza had an unconventional start as a restaurant.
+                      <h3>How Modern Came to be</h3>
+                      <p>Modern had an unconventional start as a restaurant.
                       Originally opening as a pop-up event, our original 
                       aim was to showcase the unique culinary stylings of
                       our head chef, Kabu Natsu. </p>
