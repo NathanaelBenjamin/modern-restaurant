@@ -21,7 +21,7 @@ const Contact = () =>{
                     <button className="contactSubmit">Submit</button>
                 </form> 
             </div>
-            <img className="story" src={Food}/>
+            <img className="food" src={Food}/>
             <div className="contactDetails">
                 <div className='contactPara'>
                     <p className="detailsHead">Contacts</p>
