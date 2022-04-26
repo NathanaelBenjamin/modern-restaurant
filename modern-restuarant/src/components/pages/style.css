@@ -90,7 +90,7 @@ button:hover{
 }
 /*About components styles*/
 .main-conatiner{
-border: 1px solid red;
+/* border: 1px solid red; */
 width: 100vw;
 height: auto;
 position: relative;
@@ -124,7 +124,7 @@ position: relative;
 } 
 /*This is the strip container*/
 .stripper{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     max-width: 90%;
     margin: auto;
 }
@@ -143,7 +143,6 @@ position: relative;
     width: 100%;
     gap: 5rem;
    
-
 }
 .grid-container .grid-row .grid-col2 .grid-img{
     /* border: 1px solid green; */
@@ -189,7 +188,6 @@ position: relative;
     width: 100%;
     margin-bottom:150px; 
     margin-top: -70px ;
-    position: relative;
     /* border: 1px solid black; */
 }
 .stripper .grid-container2 .grid-row2{
@@ -290,6 +288,8 @@ position: relative;
    
 }
 
+
+/*Media Queries*/
 @media (max-width: 1200px){
     .container{
         height: 90vh;
@@ -308,7 +308,7 @@ position: relative;
     }
     .main-conatiner .book-container .book-wrapper{
         width: 330px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
     .main-conatiner .book-container .book-wrapper .book-title h1{
         margin-bottom: 5px;  
@@ -337,12 +337,12 @@ position: relative;
     }
 
     .grid-container .grid-row .grid-col2 .grid-content{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         margin-bottom: -60px;
     }
 
     .grid-container .grid-row .grid-col2 .grid-content h3{
-        border: 1px solid green;
+        /* border: 1px solid green; */
         font-size:1.7rem;
         margin-bottom: 5px;
         padding: 0px 15px;
@@ -363,7 +363,6 @@ position: relative;
         
     }
 
-
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2{
         padding: 0px;
         border: 1px solid blue;
@@ -383,29 +382,28 @@ position: relative;
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2{
         width: 100%;
         max-width: 100%;
-        border: 1px solid red;
-    
-       
+        /* border: 1px solid red; */ 
     }
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2 p{
         font-size: 0.93rem;
         padding: 0 15px;
+        margin: auto;
     }
 
     .stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2{
         max-width: 95%;
         width: 100%;
         height: 45rem;
-        margin:  10px 15px;
-        overflow-y: hidden;
+        margin:  0 15px;
+      
     }
 
     .stripper .grid-container2 .grid-row2 .grid-col22{
-        gap: 3rem;
+        gap: 2rem;
     }
 
     .main-conatiner .book-container .book-wrapper{
-        margin-top: -25px;
+        margin-top: -20px;
         width: 100%;
         /* border: 1px solid black; */
     }
@@ -417,9 +415,15 @@ position: relative;
     .main-conatiner .book-container .book-wrapper .book-content{
         margin-bottom: 50px;
         width: 100%;
+        padding: 2px;
+    }
+    
+    .main-conatiner .book-container .book-wrapper .book-content p{
+        padding:0 10px;
+        border: 1px solid red;
     }
     .main-conatiner .book-container{
-        height: 50vh;
+        height: 70vh;
     }
 
     .grid-container .grid-row .grid-col2{
@@ -435,7 +439,22 @@ position: relative;
         grid-template-columns: 1fr;
        
     }
-    /* .grid-container .grid-row .grid-col2 .grid-content{
-        grid-row:1/2;
-    } */
+
 } 
+
+@media (max-width:460px){
+    .stripper{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .stripper .grid-container2 .grid-row2 .grid-col22 .grid-img2{
+        /* border: 1px solid red; */
+        max-width: 95%;
+        width: 100%;
+        height: 25rem;
+        margin:  0 15px;
+    }
+    .main-conatiner .book-container .book-wrapper{
+        margin-top: -70px;
+    }
+}
