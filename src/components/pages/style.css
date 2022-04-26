@@ -7,6 +7,10 @@
     font-family: 'Roboto Slab', serif;
 }
 /*Base styles*/
+h1{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 p{
     color: #9da3a9;
     font-size: 1.1rem;
@@ -92,34 +96,39 @@ button:hover{
 .main-conatiner{
 /* border: 1px solid red; */
 width: 100vw;
-height: auto;
+width: 100%;
+/* height: 100vh; */
 position: relative;
 }
-.container{ 
-    width: 100vw;
+.main-conatiner .container2{ 
+    width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)), url(./images/Hero.jpg);
     background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
     position: relative;
-
+    /* border: 1px solid blue; */
 }
 
-.container .hero{
+.main-conatiner .container2 .hero{
     /* border: 1px solid white; */
+    width: 100%;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 60%;
     left: 50%;
+    overflow-y: hidden;
  
 
 }
-.container .hero h1{
+.container2 .hero h1{
      font-size: 7rem;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     color: white;
+    /* border: 1px solid red; */
+    overflow: hidden;
   
 } 
 /*This is the strip container*/
@@ -171,6 +180,7 @@ position: relative;
     font-weight: 400;
     padding: 70px 45px;
     color:#1F2120;
+    overflow: hidden;
 }
 .grid-container .grid-row .grid-col2 .grid-content p{
     /* border: 1px solid red; */
@@ -291,10 +301,9 @@ position: relative;
 
 /*Media Queries*/
 @media (max-width: 1200px){
-    .container{
-        height: 90vh;
+    .main-conatiner .container2{
+        height: 70vh;
     }
-
     .grid-container .grid-row .grid-col2 .grid-content h3{
         /* border: 1px solid red; */
         width: 85%;
@@ -326,10 +335,11 @@ position: relative;
         max-width: 95%;
         margin: auto auto;
     }
-    .container{
+        .container2{
         height: 50vh;
+        height: 100%;
     }
-    .container .hero h1{
+    .container2 .hero h1{
         font-size: 2.5rem;
         text-align: center;
     }
@@ -443,9 +453,9 @@ position: relative;
 
 } 
 
-@media (max-width:460px){
-    .container{
-        height: 70vh;
+@media (max-width:450px){
+    .container2{
+        height: 50vh;
     }
     .stripper{
         max-width: 90%;
