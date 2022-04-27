@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact/Contact";
 import Product from "./pages/Products/Products"
-import Contact from "./pages/Contact";
 import Allergies from "./pages/Allergies"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from '../components/navigation/nav';

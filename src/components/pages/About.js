@@ -2,7 +2,6 @@ import React from 'react'
 import './style.css';
 import Chefimg from './images/chef2.jpg'; 
 
-
 function About() {
   return (
     <div className='main-conatiner'>
@@ -20,7 +19,7 @@ function About() {
                   </div>
                   <div className='grid-content'>
                       <h3>How Modern Restaurant Came to be</h3>
-                      <p>Modern had an unconventional start as a restaurant.
+                      <p className='aboutPara'>Modern had an unconventional start as a restaurant.
                       Originally opening as a pop-up event, our original 
                       aim was to showcase the unique culinary stylings of
                       our head chef, Kabu Natsu. </p>
@@ -37,14 +36,14 @@ function About() {
                 </div>
                 <div className='grid-content2'>
                   <div className='content1'>
-                  <p>When it became clear that there was going to be
+                  <p className='aboutPara'>When it became clear that there was going to be
                        continued interest in the eating experience we'd curated,
                         we found a permanent location, expanded our menu, and began 
                         regular service. That was 5 years ago, and we're still going strong today.
                         </p>
                   </div>
                       <div className='content2'>
-                      <p>Though we've come a long way from where we started
+                      <p className='aboutPara'>Though we've come a long way from where we started
                        (we're up to 12 chefs and 10 servers on a normal evening), our focus has ever shifted. 
                        When you eat with us, you can expect to find new flavors, existing foods, and a sparkling evening. </p>
                       </div>
@@ -62,12 +61,12 @@ function About() {
           <h1>Book a table</h1>
           </div>
           <div className='book-content'>
-            <p>Reserving a table beforehand means less waiting. 
+            <p className='aboutPara'>Reserving a table beforehand means less waiting. 
               Groups of 8 or more must reserve ahead of time.</p>
           </div>
             <div className='book-btn'>
              <a href='/contact'>
-                 <button>Book now</button>
+                 <button className='aboutButton'>Book now</button>
              </a>
             </div>
         </div>
