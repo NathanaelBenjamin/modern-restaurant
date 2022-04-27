@@ -4,11 +4,9 @@
 const ProductHero = () => {
     return(
         <div className="mb-5">
-           <div className="heroContainer">
-                <h1 className="text-center logo-name p-5">Modern Restaurant</h1>
-                
+           <div className="heroContainer d-flex justify-content-center align-items-center text-center">
                 <div>
-                    <h2 className="product-header d-flex justify-content-center align-items-center text-center">Our Product</h2>
+                    <h2 className="product-header ">Our Product</h2>
                 </div>
            </div>
 
