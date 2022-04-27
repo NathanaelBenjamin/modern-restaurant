@@ -29,7 +29,7 @@ function Footer() {
                             <div>
                                 <h3 className=" font-weight-bold mb-4 text-uppercase">Links</h3>
                                 <div className=''>
-                                    <p> <a href="">Menu</a> <br /> <a href='/allergies'> Allergens</a></p>
+                                    <p> <a href="/product">Product</a> <br /> <a href='/allergies'> Allergens</a></p>
 
                                 </div>
                             </div>
