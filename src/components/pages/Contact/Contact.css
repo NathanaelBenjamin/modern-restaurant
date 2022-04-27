@@ -22,6 +22,7 @@
 .reservation{
     font-size: 30px ;
     text-align: center;
+    color:black;
 }
 .contactForm{
     width:100%;
@@ -90,6 +91,7 @@
     justify-content:space-around;
     margin-bottom: 50px;
     margin-top:50px;
+    color:black;
 }
 @media screen and (max-width:426px){
     .mapContainer{
