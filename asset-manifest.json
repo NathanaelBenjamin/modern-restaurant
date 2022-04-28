@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/modern-restaurant/static/css/main.cad1e975.css",
+    "main.js": "/modern-restaurant/static/js/main.f3741e18.js",
+    "index.html": "/modern-restaurant/index.html",
+    "main.cad1e975.css.map": "/modern-restaurant/static/css/main.cad1e975.css.map",
+    "main.f3741e18.js.map": "/modern-restaurant/static/js/main.f3741e18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cad1e975.css",
+    "static/js/main.f3741e18.js"
+  ]
+}
