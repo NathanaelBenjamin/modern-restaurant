@@ -56,7 +56,7 @@ function Footer() {
                             <div>
                                 <h3 className=" font-weight-bold mb-4 text-uppercase">Location</h3>
                                 <div className=''>
-                                    <p>420 Willis Avenue <br />Jacksonville, FL 32216 </p>
+                                    <p>1420 Aromire Avenue <br />Ikeja, Lagos </p>
 
                                 </div>
                             </div>
