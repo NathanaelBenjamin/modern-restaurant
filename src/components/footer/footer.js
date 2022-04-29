@@ -22,7 +22,7 @@ function Footer() {
                                     <FontAwesomeIcon className="mx-3" icon={faTwitter}></FontAwesomeIcon>
                                     <FontAwesomeIcon className="mx-3" icon={faFacebook}></FontAwesomeIcon>
                                 </div>
-                            </div >
+                            </div>
                         </Col>
 
                         <Col className="mb-3" xs={12} md={3} lg={2}>

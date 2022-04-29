@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lora', serif;
 }
 /*Base styles*/
 h1{
@@ -103,6 +103,8 @@ position: relative;
     width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)), url(./images/Hero.jpg);
+    background-color: rgba(0, 0, 0, 0.59);
+    background-blend-mode: darken;
     background-position: center;
     background-size: cover; 
     background-repeat: no-repeat;
@@ -115,16 +117,13 @@ position: relative;
     width: 100%;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 60%;
+    top: 50%;
     left: 50%;
     overflow-y: hidden;
- 
-
 }
 .container2 .hero h1{
-     font-size: 7rem;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
+     font-size: 4rem;
+    font-weight: 150;
     color: white;
     /* border: 1px solid red; */
     overflow: hidden;
@@ -149,7 +148,7 @@ position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    gap: 5rem;
+    gap: 2rem;
    
 }
 .grid-container .grid-row .grid-col2 .grid-img{
@@ -173,9 +172,8 @@ position: relative;
 }
 .grid-container .grid-row .grid-col2 .grid-content h3{
     /* border: 1px solid red; */
-    max-width: 450px;
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     font-weight: 400;
     padding: 70px 45px;
     color:#1F2120;
@@ -246,7 +244,7 @@ position: relative;
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2{
     /* border: 1px solid red; */
     margin-top: 50px;
-    max-width: 100%;
+    max-width: 85%;
     width: 500px;
 }
 .stripper .grid-container2 .grid-row2 .grid-col22 .grid-content2 .content2 p{
@@ -261,7 +259,7 @@ position: relative;
 
 .main-conatiner .book-container{
     /* border: 1px solid green; */
-    width: 100%;
+    width: 85%;
     height: 85vh;
     background: #eeeeee;
     position: relative;
@@ -278,7 +276,7 @@ position: relative;
 .main-conatiner .book-container .book-wrapper .book-title h1{
     /* border: 1px solid green; */
     padding: 20px 0;
-   font-size: 4rem;
+   font-size: 3rem;
    font-weight: 400;
    margin-bottom: 40px;
    color: #404344;
