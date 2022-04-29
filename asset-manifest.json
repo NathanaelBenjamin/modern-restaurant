@@ -1,13 +1,30 @@
 {
   "files": {
-    "main.css": "/modern-restaurant/static/css/main.cad1e975.css",
-    "main.js": "/modern-restaurant/static/js/main.f3741e18.js",
-    "index.html": "/modern-restaurant/index.html",
-    "main.cad1e975.css.map": "/modern-restaurant/static/css/main.cad1e975.css.map",
-    "main.f3741e18.js.map": "/modern-restaurant/static/js/main.f3741e18.js.map"
+    "main.css": "/github.io/modern-restaurant/static/css/main.b48a1071.css",
+    "main.js": "/github.io/modern-restaurant/static/js/main.a14a78d2.js",
+    "static/media/restaurant.jpg": "/github.io/modern-restaurant/static/media/restaurant.496eb3fe4d69e349dbe8.jpg",
+    "static/media/allergiesHeroBackground.jpg": "/github.io/modern-restaurant/static/media/allergiesHeroBackground.4da99e0a1ef532e11753.jpg",
+    "static/media/food.jpg": "/github.io/modern-restaurant/static/media/food.3d2794dc83c9f6633434.jpg",
+    "static/media/Nigiri Plate.jpeg": "/github.io/modern-restaurant/static/media/Nigiri Plate.188d2e38df75d1540c14.jpeg",
+    "static/media/restuarant.jpg": "/github.io/modern-restaurant/static/media/restuarant.0d1d9f991835832b52b2.jpg",
+    "static/media/starterDumplings1.jpg": "/github.io/modern-restaurant/static/media/starterDumplings1.4f6db266c4145771787e.jpg",
+    "static/media/chef2.jpg": "/github.io/modern-restaurant/static/media/chef2.84c92edf476453ce0e21.jpg",
+    "static/media/vegetable bowls.jpg": "/github.io/modern-restaurant/static/media/vegetable bowls.e06ae2014577d3e52638.jpg",
+    "static/media/Hero.jpg": "/github.io/modern-restaurant/static/media/Hero.4889b297e9fcac698eee.jpg",
+    "static/media/Teriyaki.jpg": "/github.io/modern-restaurant/static/media/Teriyaki.c5459bbd9a32cb2f24e4.jpg",
+    "static/media/productHeroHeader.webp": "/github.io/modern-restaurant/static/media/productHeroHeader.d73f02cb75b8c7c1a0e2.webp",
+    "static/media/Vegetable-donburi.jpg": "/github.io/modern-restaurant/static/media/Vegetable-donburi.bbdb35382efff346d617.jpg",
+    "static/media/dragon roll.webp": "/github.io/modern-restaurant/static/media/dragon roll.026ba78001a6e341f43c.webp",
+    "static/media/Philadelphia-roll.jpg": "/github.io/modern-restaurant/static/media/Philadelphia-roll.997bcf5751fa3a8273f2.jpg",
+    "static/media/tonkotsu ramen.jpg": "/github.io/modern-restaurant/static/media/tonkotsu ramen.228d5a652bebddd1f84d.jpg",
+    "static/media/starterDumplings2.jpg": "/github.io/modern-restaurant/static/media/starterDumplings2.848b5caf4f009ef17ccd.jpg",
+    "static/media/San Francisco Roll.avif": "/github.io/modern-restaurant/static/media/San Francisco Roll.febccd50d692cea88397.avif",
+    "index.html": "/github.io/modern-restaurant/index.html",
+    "main.b48a1071.css.map": "/github.io/modern-restaurant/static/css/main.b48a1071.css.map",
+    "main.a14a78d2.js.map": "/github.io/modern-restaurant/static/js/main.a14a78d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad1e975.css",
-    "static/js/main.f3741e18.js"
+    "static/css/main.b48a1071.css",
+    "static/js/main.a14a78d2.js"
   ]
 }
