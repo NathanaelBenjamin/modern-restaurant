@@ -75,7 +75,7 @@ const Home = () =>{
                           We don’t just serve dishes, we serve memories.  
                         </p>
 
-                        <a href="./About.js"><button className='btn'>Learn more</button></a>
+                        <a href="./About.js"><button className='btn-button'>Learn more</button></a>
                     </div>
                 </div>
             </section>
@@ -110,7 +110,7 @@ const Home = () =>{
                                         </p>
                                     </div>
 
-                                    <a className="see-more" href="./Products.js"><button className="btn">See menu.</button></a>
+                                    <a className="see-more" href="./Products.js"><button className="btn-button">See menu.</button></a>
                                 </div>
                             </Carousel.Item>
 
@@ -139,7 +139,7 @@ const Home = () =>{
                                         </p>
                                     </div>
 
-                                    <a className="see-more" href="./Products.js"><button className="btn">See menu.</button></a>
+                                    <a className="see-more" href="./Products.js"><button className="btn-button">See menu.</button></a>
                                 </div>
                             </Carousel.Item>
 
@@ -167,7 +167,7 @@ const Home = () =>{
                                         </p>
                                     </div>
 
-                                    <a className="see-more" href="./Products.js"><button className="btn">See menu.</button></a>
+                                    <a className="see-more" href="./Products.js"><button className="btn-button">See menu.</button></a>
                                 </div>
                             </Carousel.Item>
                         </Carousel>
@@ -208,7 +208,7 @@ const Home = () =>{
                 <p>
                 When you book a table ahead of time, you'll spend less time waiting. Groups of 10 or more must make a reservation in advance.
                 </p>
-                <a href="./Products.js"><button className='btn'>Book now</button></a>
+                <a href="./Products.js"><button className='btn-button'>Book now</button></a>
             </div>
         </div>
     );

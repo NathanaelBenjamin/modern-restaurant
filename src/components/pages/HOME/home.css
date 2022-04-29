@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Lora', serif;
 }
 
 body{
@@ -81,8 +82,8 @@ h2{
     background-image: url('https://media.istockphoto.com/photos/dinner-picture-id185109733?b=1&k=20&m=185109733&s=170667a&w=0&h=PpPlmIKM3Vdn9cRFAsEV9yigpqPJ_jJ1BXE7iiyyxiA=');   
 }
 .hero-section h2{
-    width: clamp(40%, 65%, 70%);
-    font-size: clamp(30%, 6vw, 11.6rem);
+    width: clamp(38%, 65%, 70%);
+    font-size: clamp(28%, 4.2vw, 10.6rem);
     margin-top: .9rem;
 }
 
@@ -103,7 +104,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     /* grid-template-rows: ; */
-    gap: 9.5rem;
+    gap: 7.5rem;
     place-items: center;
 }
 
@@ -115,7 +116,7 @@ h2{
 .content{
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
     line-height: 1.5em;
 }
 
@@ -134,13 +135,15 @@ h2{
     font-weight: 100;
 }
 
-.btn{
+.btn-button{
     border: 1px solid #000;
-    padding: 1rem 2rem;
+    padding: .8rem 1.2rem;
     font-size: 1.02rem;
     color: var(--dark-font);
     cursor: pointer;
     transition: all ease-in 0.2s;
+    font-family: sans-serif;
+    border-radius: 7px;
 }
 .btn:hover{
     background-color: var(--dark-font);
@@ -177,6 +180,7 @@ h2{
     display: flex;
     width: 95%;
     max-width: 100%;
+    max-height: 100%;
     padding: 2.35rem;
     flex-direction: column;
     gap: .95rem;
@@ -196,6 +200,7 @@ h2{
 .dish--slide a{
     grid-column: 1/span 2;
     justify-self: center;
+    margin-top: 10rem;
 }
 
 .our-dishes .carousel-indicators{
@@ -223,7 +228,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: repeat(3, 1fr);
-    /* place-items: center; */
+    place-items: center;
     gap: 2rem;
 }
 
@@ -240,7 +245,7 @@ h2{
 }
 
 .text{
-    width: 70%;
+    width: 97%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -258,7 +263,7 @@ h2{
     font-family: sans-serif;
 }
 
-.shifted-right{
+/* .shifted-right{
     justify-self: flex-end;
     width: 90%;
 }
@@ -266,7 +271,7 @@ h2{
 .shifted-left{
     justify-self: flex-start;
     width: 90%;
-}
+} */
 
 /* BOOKINGS */
 
@@ -293,6 +298,12 @@ h2{
     line-height: 1.56em;
 }
 
+.bookings p, 
+    .misc--grids p,
+    .food-card p{
+        font-family: sans-serif;
+    }
+
 /* MEDIA QUERIES */
 
 @media(max-width: 952px){
@@ -307,12 +318,20 @@ h2{
         padding: 4rem;
     }   
     
-    .btn{
+    .btn-button{
         padding: .5rem 1rem;
     }
 
     .dish--slide .btn{
         margin-top: -5.5rem;
+    }
+
+    .misc--grids{
+        padding: 10% 4%;
+    }
+
+    .misc--grids img{
+        height: min(21rem, 60vh);
     }
 
     
@@ -322,7 +341,7 @@ h2{
     .our-dishes .header
     {
         font-size: 1.8rem;
-        width: 85%;
+        width: 100%;
     }
 
     .food-card-header h2{

@@ -5,23 +5,25 @@ const Contact = () =>{
     return(
         <div className="contactContainer">
             <div className="contactHero">
-                <p className='contacts'>Contacts</p>
+                <p className='contacts'>Contact us..</p>
             </div>
             <div className="contactForm">
-                <p className='reservation'>Make a reservation</p>
+                <p className='reservation'>Book a reservation..</p>
                 <form className="formContainer">
-                    <label className="labelText"for="name">Name</label><br/>
+                    <label className="labelText"for="name">First Name</label>
                     <input className="smallInput" type="text" name="name" placeholder="Enter Your Name"/><br/>
                     <label className="labelText" for="lastName">Last Name</label><br/>
                     <input type="text"className="smallInput" name="lastName" placeholder="Enter Your Last Name"/><br/>
                     <label className="labelText" for="email" >Your Email</label><br/>
                     <input type="email"className="smallInput" name="email" placeholder="Enter Your Email" required/><br/>
                     <label className="labelText"for="message" >Message</label><br/>
-                    <input  type="text"className="bigInput" name="message" placeholder="Enter Your Message" required/>
+                    {/* <input  type="text"className="bigInput" name="message" placeholder="Enter Your Message" required/>
+                     */}
+                     <textarea placeholder='Enter your message for us..'></textarea>
                     <button className="contactSubmit">Submit</button>
                 </form> 
             </div>
-            <img className="food" src={Food}/>
+            <img className="food" src={Food} alt="" />
             <div className="contactDetails">
                 <div className='contactPara'>
                     <p className="detailsHead">Contacts</p>
@@ -45,4 +47,4 @@ const Contact = () =>{
     )
 }
 
-export default Contact
+export default Contact;

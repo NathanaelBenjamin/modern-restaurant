@@ -7,7 +7,7 @@ function About() {
     <div className='main-conatiner'>
         <div className='container2'>
           <div className='hero'>
-              <h1 className='text-center'>About</h1>
+              <h1 className='text-center'>About us..</h1>
           </div>
         </div>
         <div className='stripper'>
