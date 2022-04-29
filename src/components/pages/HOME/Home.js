@@ -4,7 +4,7 @@ import Facebook from './Facebook';
 import Instagram from './Instagram';
 import "./home.css";
 import { Carousel } from "react-bootstrap";
-//import { CarouselItem } from "react-bootstrap";
+import { CarouselItem } from "react-bootstrap";
 
 
 const Home = () =>{
