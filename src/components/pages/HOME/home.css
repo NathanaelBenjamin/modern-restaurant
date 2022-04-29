@@ -31,7 +31,7 @@ svg:hover{
     transform: scale(1.19);
 }
 
-h2{
+.body-container h2{
     font-size: 2.2rem;
     font-weight: 190;
     width: 40%;
@@ -40,9 +40,9 @@ h2{
 .jumbotron-slide{
     height: 90vh;
     max-height: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .carousel, .slide{

@@ -75,7 +75,7 @@ const Home = () =>{
                           We don’t just serve dishes, we serve memories.  
                         </p>
 
-                        <a href="./About.js"><button className='btn-button'>Learn more</button></a>
+                        <a href="/about"><button className='btn-button'>Learn more</button></a>
                     </div>
                 </div>
             </section>
@@ -110,7 +110,7 @@ const Home = () =>{
                                         </p>
                                     </div>
 
-                                    <a className="see-more" href="./Products.js"><button className="btn-button">See menu.</button></a>
+                                    <a className="see-more" href="./product"><button className="btn-button">See Product.</button></a>
                                 </div>
                             </Carousel.Item>
 
@@ -135,11 +135,11 @@ const Home = () =>{
                                         </div>
                                         <p className="content">
                                         Our bespoke ramen includes a handburger and fries, 
-        as well as a range of toppings and handmade broth.
+                                         as well as a range of toppings and handmade broth.
                                         </p>
                                     </div>
 
-                                    <a className="see-more" href="./Products.js"><button className="btn-button">See menu.</button></a>
+                                    <a className="see-more" href="./Products.js"><button className="btn-button">See Product.</button></a>
                                 </div>
                             </Carousel.Item>
 
@@ -167,7 +167,7 @@ const Home = () =>{
                                         </p>
                                     </div>
 
-                                    <a className="see-more" href="./Products.js"><button className="btn-button">See menu.</button></a>
+                                    <a className="see-more" href="./Products.js"><button className="btn-button">See Product.</button></a>
                                 </div>
                             </Carousel.Item>
                         </Carousel>

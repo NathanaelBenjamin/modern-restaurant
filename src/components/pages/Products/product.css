@@ -24,6 +24,8 @@
     background-image: url("./product-image/allergiesHeroBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.86);
     height: 90vh;
     width: 100%;
     position: relative;
@@ -51,6 +53,7 @@
     color: #ffffffff;
     padding: 8rem 0 8rem 0;
 }
+
 
 .hero-bottom {
     background: #507625;
@@ -146,11 +149,7 @@
     padding: 0 15% 0 15%;
 }
 
-@media screen and (min-width:1024px) {
-    .heroContainer h2{
-        font-size: 1.2rem;
-    }
-}
+
 
 @media screen and (max-width:425px){
     .drinkWrapper {

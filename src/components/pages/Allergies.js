@@ -8,10 +8,8 @@ import {Container, Row, Col} from "react-bootstrap"
   return (
     <div>
        <div className="allergiesHero">
-           <h1 className="logo-name text-center logo-name p-5">Modern Restaurant</h1>
-
-           <div>
-                <h2 className="allergies-header d-flex justify-content-center align-items-center text-center ">List of allergens</h2>
+           <div className="pt-5 d-flex justify-content-center align-items-center text-center">
+                <h2 className="allergies-header  ">List of allergens</h2>
             </div>
        </div>
 
